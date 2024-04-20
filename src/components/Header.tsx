@@ -8,8 +8,8 @@ export const Header: React.FC = () => {
     <header className="header">
       <h1>Time-Tracker-Project</h1>
       <ul className="header-list">
-        <Link to="/projects">Projects</Link>
         <Link to="/track-time">Track time</Link>
+        <Link to="/projects">Projects</Link>
       </ul>
     </header>
   );

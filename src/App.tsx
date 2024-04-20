@@ -1,4 +1,3 @@
-import "./App.css";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 // import compponents
@@ -9,15 +8,10 @@ import { Projects } from "./pages/Projects";
 function App() {
   return (
     <Router>
-      <>
-        <div>
-          <Header />
-
-          <Routes>
-            <Route path="/projects" element={<Projects />} />
-          </Routes>
-        </div>
-      </>
+      <Header />
+      <Routes>
+        <Route path="/projects" element={<Projects />} />
+      </Routes>
     </Router>
   );
 }
