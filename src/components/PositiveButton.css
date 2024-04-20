@@ -1,0 +1,9 @@
+.positive_button{
+    background-color: rgb(45, 179, 45);
+    color: #fff;
+    border: none;
+    padding: 4px 4px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: large;
+}
